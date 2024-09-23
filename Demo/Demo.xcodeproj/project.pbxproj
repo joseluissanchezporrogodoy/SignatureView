@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11CED0492CA077E000328BF8 /* SignatureView in Frameworks */ = {isa = PBXBuildFile; productRef = 11CED0482CA077E000328BF8 /* SignatureView */; };
+		11CED0872CA0A27900328BF8 /* SignatureView in Frameworks */ = {isa = PBXBuildFile; productRef = 11CED0862CA0A27900328BF8 /* SignatureView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CED0872CA0A27900328BF8 /* SignatureView in Frameworks */,
 				11CED0492CA077E000328BF8 /* SignatureView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +81,7 @@
 			name = Demo;
 			packageProductDependencies = (
 				11CED0482CA077E000328BF8 /* SignatureView */,
+				11CED0862CA0A27900328BF8 /* SignatureView */,
 			);
 			productName = Demo;
 			productReference = 11CED02C2CA0773200328BF8 /* Demo.app */;
@@ -108,6 +111,9 @@
 			);
 			mainGroup = 11CED0232CA0773200328BF8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				11CED0852CA0A27900328BF8 /* XCLocalSwiftPackageReference "../../SignatureView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 11CED02D2CA0773200328BF8 /* Products */;
 			projectDirPath = "";
@@ -337,8 +343,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		11CED0852CA0A27900328BF8 /* XCLocalSwiftPackageReference "../../SignatureView" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../SignatureView;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		11CED0482CA077E000328BF8 /* SignatureView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SignatureView;
+		};
+		11CED0862CA0A27900328BF8 /* SignatureView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SignatureView;
 		};
