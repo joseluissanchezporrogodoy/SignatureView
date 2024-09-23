@@ -77,7 +77,7 @@ SignatureView(onSave: { image in
 
 Check out the demo below for a live preview of how the `SignatureView` works.
 
-![Demo GIF](path_to_your_gif.gif)
+![Demo GIF](SignatureView/Demo/SignatureView.gif)
 
 ## Contributing
 
